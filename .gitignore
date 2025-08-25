@@ -1,0 +1,86 @@
+##############################
+# ANDROID CLIENT
+##############################
+
+Client/.gradle/
+Client/build/
+Client/app/build/
+Client/.idea/
+Client/local.properties
+Client/*.iml
+
+# APK / Bundle files
+*.apk
+*.ap_
+*.aab
+
+# Keystores
+*.jks
+*.keystore
+
+# Google Services (Firebase config)
+Client/google-services.json
+Client/**/google-services.json
+
+# Misc
+.DS_Store
+*.log
+*.class
+*.dex
+captures/
+output.json
+
+
+##############################
+# PYTHON SERVER
+##############################
+
+# Bytecode
+Server/__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual envs
+venv/
+.env
+.env.*
+
+# Build and distribution
+dist/
+build/
+*.egg-info/
+
+# Logs
+*.log
+
+# Pytest cache
+.pytest_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# SQLite / local DB
+*.sqlite3
+*.db
+
+# Firebase / credentials
+Server/serviceAccountKey.json
+Server/**/serviceAccountKey.json
+
+# Ignore Firebase/Google services json
+google-services.json
+*/google-services.json
+*.pem
+*.p12
+*.key
+*.json
+
+
+##############################
+# NODE (if you later add JS backend)
+##############################
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*

@@ -1,0 +1,43 @@
+<resources>
+    <!-- Main App Theme -->
+    <style name="Theme.Chatappjava.Navy" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryVariant">@color/secondaryColor</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/accentColor</item>
+        <item name="colorSecondaryVariant">@color/accentColor</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:colorBackground">@color/backgroundColor</item>
+        <item name="colorOnBackground">@color/textColorPrimary</item>
+        <item name="colorSurface">@color/white</item>
+        <item name="colorOnSurface">@color/textColorPrimary</item>
+        <item name="colorError">@color/errorColor</item>
+        <item name="colorOnError">@color/white</item>
+        <item name="android:statusBarColor">@color/primaryColor</item>
+        <item name="android:navigationBarColor">@color/primaryColor</item>
+    </style>
+
+    <style name="BottomSheetDialogTheme" parent="ThemeOverlay.MaterialComponents.BottomSheetDialog">
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.Material3.Corner.Medium</item>
+        <item name="android:windowIsTranslucent">false</item>
+    </style>
+
+    <style name="VideoCallButton">
+        <item name="android:layout_width">56dp</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:background">@drawable/rounded_button_background</item>
+        <item name="android:scaleType">centerInside</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+    <style name="VideoCallButton.White" parent="VideoCallButton">
+        <item name="android:backgroundTint">#FFFFFF</item>
+        <item name="android:tint">#222222</item>
+    </style>
+
+    <style name="VideoCallButton.Red" parent="VideoCallButton">
+        <item name="android:backgroundTint">#F44336</item>
+        <item name="android:tint">#FFFFFF</item>
+    </style>
+
+</resources>

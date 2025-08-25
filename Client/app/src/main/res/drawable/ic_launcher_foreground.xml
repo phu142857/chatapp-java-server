@@ -1,0 +1,50 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Background for the P stem, using a gradient -->
+    <path
+        android:pathData="M30 30 L30 80 L50 80 L50 30 Z M40 30 A10 10 0 0 1 50 40 L50 70 A10 10 0 0 1 40 80 L30 80 A10 10 0 0 1 20 70 L20 40 A10 10 0 0 1 30 30 Z"
+        android:fillType="evenOdd">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endX="50"
+                android:endY="80"
+                android:startX="30"
+                android:startY="30"
+                android:type="linear">
+                <item android:color="#4CAF50" android:offset="0.0" />
+                <item android:color="#2196F3" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Speech bubble replacing the 'P' loop, using a gradient -->
+    <path
+        android:pathData="M 50 30 C 80 30, 80 50, 80 50 C 80 70, 65 70, 60 70 L 55 80 L 50 70 C 45 70, 50 70, 50 50 Z"
+        android:strokeWidth="2"
+        android:strokeColor="#FFFFFF"
+        android:fillType="evenOdd">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endX="80"
+                android:endY="70"
+                android:startX="50"
+                android:startY="30"
+                android:type="linear">
+                <item android:color="#FFEB3B" android:offset="0.0" />
+                <item android:color="#FFC107" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Small circle inside the bubble for emphasis (optional) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.3"
+        android:pathData="M65 50 A8 8 0 1 1 65 49.9 Z" />
+
+</vector>

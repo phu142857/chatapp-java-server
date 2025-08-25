@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="start"
+    android:paddingTop="4dp"
+    android:paddingBottom="4dp"
+    android:paddingStart="12dp"
+    android:paddingEnd="12dp">
+
+    <TextView
+        android:id="@+id/txtSenderReceived"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sender Name"
+        android:textColor="@color/gray"
+        android:textStyle="bold"
+        android:textSize="13sp"
+        android:layout_gravity="start"
+        android:paddingBottom="2dp"/>
+
+    <TextView
+        android:id="@+id/txtMessageReceived"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_message_received"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:maxWidth="260dp"
+        android:layout_gravity="start"/>
+
+    <TextView
+        android:id="@+id/txtTimeReceived"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/gray"
+        android:textSize="12sp"
+        android:layout_gravity="start"
+        android:paddingTop="2dp"/>
+
+</LinearLayout>

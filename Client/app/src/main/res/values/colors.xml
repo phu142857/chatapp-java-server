@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Navy-White-Gray Color Scheme -->
+    <color name="primaryColor">#001F3F</color>      <!-- Navy Blue -->
+    <color name="secondaryColor">#003366</color>    <!-- Darker Navy -->
+    <color name="accentColor">#0066CC</color>       <!-- Bright Blue -->
+    <color name="backgroundColor">#F8F9FA</color>   <!-- Light Gray Background -->
+    <color name="textColorPrimary">#001F3F</color>  <!-- Navy Text -->
+    <color name="textColorSecondary">#6C757D</color> <!-- Gray Text -->
+    <color name="gray">#999999</color>
+
+    <!-- Utility Colors -->
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="grayLight">#F5F5F5</color>         <!-- Light Gray -->
+    <color name="errorColor">#DC3545</color>        <!-- Error Red -->
+    <color name="successColor">#28A745</color>      <!-- Success Green -->
+    
+    <!-- Legacy Colors (keeping for compatibility) -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+</resources>

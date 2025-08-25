@@ -1,0 +1,32 @@
+private_chats/
+  uidA_uidB/
+    participants: [uidA, uidB]
+    created_at: timestamp
+    last_message: string
+    last_message_time: timestamp
+    messages/   <-- subcollection
+      message_id/
+        sender_uid: string
+        receiver_uid: string
+        message_content: string
+        timestamp: timestamp
+        message_type: string  # 'text', 'image', 'file'
+        file_url: string (nếu có)
+
+
+groups/
+  group_id/
+    group_name: string
+    admin_uid: string
+    member_uids: [uid1, uid2, ...]
+    created_at: timestamp
+    last_message: string
+    last_message_time: timestamp
+    messages/   <-- subcollection
+      message_id/
+        sender_uid: string
+        group_id: string
+        message_content: string
+        timestamp: timestamp
+        message_type: string  # 'text', 'image', 'file'
+        file_url: string (nếu có)
