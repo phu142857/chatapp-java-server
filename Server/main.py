@@ -118,7 +118,7 @@ class LoginRequest(BaseModel):
     id_token: Optional[str] = None
 
 # Đọc FIREBASE_API_KEY từ .env
-FIREBASE_API_KEY = os.getenv('FIREBASE_API_KEY', 'AIzaSyB9dIzlKszBNuEC4oRcUUZmYw9h3nM91Q0')
+FIREBASE_API_KEY = os.getenv('FIREBASE_API_KEY')
 
 router = APIRouter()
 
